@@ -1,0 +1,47 @@
+body {
+    background-image: url(assets/newsletter.png);
+    
+}
+
+.tulisan {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btn-primary {
+    background-color: orange !important;
+    color: black !important;
+    border: none !important;
+}
+
+.form-control-plaintext {
+    background-color: #3C3C3D !important;
+    border: none !important;
+    color: orange !important;
+    border-radius: 3px !important;
+}
+
+.nav-link {
+    color: white !important;
+    text-transform: uppercase !important;
+}
+
+.text-line {
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 552px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 3px;
+    color: white;
+  }

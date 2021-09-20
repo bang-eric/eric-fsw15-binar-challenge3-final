@@ -1,0 +1,23 @@
+body {
+    background-image: url(assets/the-games-bg.jpg);
+    background-size: cover;
+}
+
+p {
+    position: relative;
+    top: 14em;
+    left: 25em;
+}
+
+h1 {
+    position: relative;
+    top: 4em;
+    left: 8em;
+    font-size: 50px;
+}
+
+img {
+    position: relative;
+    top: 7em;
+    left: 45em;
+}

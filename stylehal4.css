@@ -1,0 +1,55 @@
+body {
+    background: url(assets/requirements.png) no-repeat center center fixed;
+    min-height : 100%;
+    min-width : 100%;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+/* .utama {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    opacity: 0.5;
+} */
+
+h1 {
+    border: 1px dashed black;
+    padding: 1em;
+    font-size: calc(0.6vw + 0.6em);
+    direction: ltr;
+    width: 30vw;
+    margin:auto;
+    text-align:justify;
+    word-break: break-word;
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    -ms-word-break: break-word;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: relative;
+    top: 2em;
+    left: -13em;
+}
+
+/* .utama {
+    position: relative;
+    top: -4em;
+    left: 41em;
+} */
+
+/* table tr td {
+    border: 1px solid;
+    border-color: white;
+    padding: 3em;
+    width: 100px;
+} */

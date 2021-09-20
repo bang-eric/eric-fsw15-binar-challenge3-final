@@ -1,0 +1,90 @@
+body {
+    background-color: beige;
+    background-image: url(assets/main-bg.jpg);
+    letter-spacing: 2px; 
+    word-spacing: 5px;
+    color: white;
+}
+
+.front {
+    font-size: 50px;
+}
+
+ul {
+    background-color: black;
+    opacity: 0.5;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* untuk membuat list jadi horizontal */
+li {
+    float: left;
+    padding: 14px;
+    /* text-align: center center; */
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+/* pseudo class untuk hover LOGO */
+.front:hover a {
+    color: lemonchiffon;
+    font-size: 60px;
+}
+
+/* pseudo class untuk link */
+li:link a {
+    color:white;
+}
+
+/* pseudo class untuk link hover */
+li:hover a {
+    color: lemonchiffon;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+}
+
+button {
+    background-color: orange;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    border-radius: 0.5em;
+    position: relative;
+    top: 4em;
+    left: 49em;
+}
+
+p {
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 25em;
+}
